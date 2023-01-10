@@ -1,0 +1,11 @@
+{
+    "name": "alfred/todo-with-data-base",
+    "autoload": {
+        "psr-4": {
+            "Alfred\\TodoWithDataBase\\": "src/"
+        }
+    },
+    "require": {
+        "smarty/smarty": "^4.3"
+    }
+}

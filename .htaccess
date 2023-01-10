@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /todoWithDataBase/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /todoWithDataBase/index.php [L]
